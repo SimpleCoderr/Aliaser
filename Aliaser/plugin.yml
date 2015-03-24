@@ -1,0 +1,10 @@
+name: Aliaser
+version: 1.0.0
+author: [SimpleCoder]
+main: me.simplecoder.aliaser.Main
+commands:
+  aliaser:
+    usage: /aliaser <add/edit/delete/list> [alias] [command]
+    permission: aliaser.command
+    permission-message: You don''t have permission to use this command!
+    description: Create, link, edit, or view aliases.
